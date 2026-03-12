@@ -1,0 +1,12 @@
+Start the program
+Define a structure to store book details like book id,book namw,author name,and quantity
+Create an array to store the book records
+Display the menu options(Add Book,Display Books,Search Book,Issue Book,Return Book,Exit)
+Read the user's choice
+If the user selects Add Book,enter the book details and store them
+If the user selects Display Books,show all the book records
+If the user selects Search Book,enter the book id and display the book details if found
+If the user selects Issue Book,reduce the quantity of the book if it is available
+If the user selects Return Book,increase the quantity of the book
+If the user selects Exit,terminate the program
+Stop the program
