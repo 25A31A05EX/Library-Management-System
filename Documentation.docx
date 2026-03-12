@@ -1,0 +1,9 @@
+LIBRARY MANAGEMENT SYSTEM USING C
+Objective:
+To develop a simple Library Management System using C programming language
+Introduction:
+This program is used to manage library books,it allows the user to add books,display books,search books,issue books,and return books
+Source Code:
+The source code of this project is available in the file libraryManagement.c
+Output:
+Library Management System menu will be displayed and the user can perform operations like add, display,search,issue and return books
