@@ -1,0 +1,61 @@
+            (START)
+               |
+               v
+      [Initialize n = 0]
+               |
+               v
+     [Display Library Menu]
+               |
+               v
+        [Enter Choice]
+               |
+               v
+        <Choice == 1?>
+          /        \
+        Yes        No
+        |           |
+        v           v
+   [Add Book]   <Choice == 2?>
+        |         /        \
+        |       Yes        No
+        |        |          |
+        |        v          v
+        |   <n == 0?>   <Choice == 3?>
+        |     /   \       /        \
+        |   Yes   No    Yes        No
+        |    |     |      |          |
+        |    v     v      v          v
+        | [Print   [Display   [Search Book]
+        |  "No      Books]        |
+        | Books"]                  v
+        |                          <Book Found?>
+        |                         /      \
+        |                       Yes      No
+        |                        |        |
+        |                        v        v
+        |                [Display Book] [Print
+        |                                Not Found]
+        |
+        v
+   <Choice == 4?>
+     /        \
+   Yes        No
+    |          |
+    v          v
+ [Issue Book] <Choice == 5?>
+    |          /       \
+    v        Yes       No
+ <Book       |          |
+ Found?>     v          v
+ /     \  [Return   <Choice == 6?>
+Yes     No   Book]     /      \
+ |       |      |    Yes      No
+ v       v      v     |        |
+<Qty>0?> [Print  |     v        v
+ /   \    Not    |  (END)   [Invalid
+Yes  No   Found] |          Choice]
+ |    |          |
+ v    v          |
+[Issue] [Book    |
+ Book]  Not      |
+        Available]
